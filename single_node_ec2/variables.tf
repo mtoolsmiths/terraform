@@ -20,6 +20,7 @@ variable "ip" {
 
 variable "ami" {
     default = "ami-0a313d6098716f372"
+    type=string
 }
 
 variable "instance_type" {
